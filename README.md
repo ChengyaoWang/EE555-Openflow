@@ -23,13 +23,14 @@
     - Start Pox: *./pox/pox.py log.level --DEBUG misc.firewall misc.full_payload*
 
 ## Comments:
-  - Scenario 2 & 3 provides *\*_messy.py* & *\*_neat.py* of the controller.
-    - They both work, while *ICMP* & *TCP/UDP* situations in *\*_neat.py* are jointly handled
+  - Scenario 2 & 3 provides **\*_messy.py** & **\*_neat.py** of the controller.
+    - They both work, while *ICMP* & *TCP/UDP* situations in **\*_neat.py** are jointly handled
     - *\*_messy.py* is served for convenience during development 
   - Majority part of Scenario 4 is identical to that of Scenario 3's
     - Only routing tables are changed
   - Arp Request Forwarding is done in iterative manner
-  - Expected TCP bandwidth using ***iperf hi hj***: 40+ Gbits/s
+  - Expected *TCP* bandwidth using ***"iperf hi hj"***: 40+ Gbits/s
+    - *UDP* tests are much slower for unknown reasons
 
 ### Reference & Special Thanks Gives to ***zjx727***:
 
