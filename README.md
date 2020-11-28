@@ -24,7 +24,7 @@
 
 ## Comments:
   - Scenario 2 & 3 provides *\*_messy.py* & *\*_neat.py* of the controller.
-    - They both work, however ICMP & TCP/UDP situations in *\*_neat.py* are jointly handled
+    - They both work, while *ICMP* & *TCP/UDP* situations in *\*_neat.py* are jointly handled
     - *\*_messy.py* is served for convenience during development 
   - Majority part of Scenario 4 is identical to that of Scenario 3's
     - Only routing tables are changed
